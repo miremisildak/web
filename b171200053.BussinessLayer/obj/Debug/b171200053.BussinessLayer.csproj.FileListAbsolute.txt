@@ -1,0 +1,17 @@
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\obj\Debug\b171200053.BussinessLayer.csprojAssemblyReference.cache
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\obj\Debug\b171200053.BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\b171200053.BussinessLayer.dll.config
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\b171200053.BussinessLayer.dll
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\b171200053.BussinessLayer.pdb
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\b171200053.DataAccessLayer.dll
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\b171200053.Entities.dll
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\b171200053.DataAccessLayer.pdb
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\b171200053.DataAccessLayer.dll.config
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\b171200053.Entities.pdb
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\obj\Debug\b171200053.BussinessLayer.csproj.CopyComplete
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\obj\Debug\b171200053.BussinessLayer.dll
+C:\Users\mirem\Desktop\web\b171200053.BussinessLayer\obj\Debug\b171200053.BussinessLayer.pdb

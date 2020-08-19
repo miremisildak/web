@@ -1,0 +1,6 @@
+C:\Users\mirem\Desktop\web\b171200053.Entities\bin\Debug\b171200053.Entities.dll
+C:\Users\mirem\Desktop\web\b171200053.Entities\bin\Debug\b171200053.Entities.pdb
+C:\Users\mirem\Desktop\web\b171200053.Entities\obj\Debug\b171200053.Entities.csprojAssemblyReference.cache
+C:\Users\mirem\Desktop\web\b171200053.Entities\obj\Debug\b171200053.Entities.csproj.CoreCompileInputs.cache
+C:\Users\mirem\Desktop\web\b171200053.Entities\obj\Debug\b171200053.Entities.dll
+C:\Users\mirem\Desktop\web\b171200053.Entities\obj\Debug\b171200053.Entities.pdb

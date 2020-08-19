@@ -1,0 +1,16 @@
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\b171200053.DataAccessLayer.dll.config
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\b171200053.DataAccessLayer.dll
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\b171200053.DataAccessLayer.pdb
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\b171200053.Entities.dll
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\FakeData.dll
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\b171200053.Entities.pdb
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\bin\Debug\FakeData.pdb
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\obj\Debug\b171200053.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\obj\Debug\b171200053.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\obj\Debug\b171200053.DataAccessLayer.csproj.CopyComplete
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\obj\Debug\b171200053.DataAccessLayer.dll
+C:\Users\mirem\Desktop\web\b171200053.DataAccessLayer\obj\Debug\b171200053.DataAccessLayer.pdb

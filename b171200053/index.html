@@ -12,12 +12,14 @@
 
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom CSS -->
-
     <link href="Content/shop-homepage.css" rel="stylesheet" />
-
     <script src="Scripts/jquery-3.5.1.min.js"></script>
+
     <script src="Scripts/bootstrap.min.js"></script>
 
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +32,8 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -40,19 +43,53 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">The Story</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav ">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-wrench"></span> Yönetim
+                        </a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-heart"></span> En beğenilenler
+                        </a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-th-large"></span> Son Yazılanlar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-info-sign"></span> Hakkımda
+                        </a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-log-in"></span> Giriş
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-user"></span> Üye Ol
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-user"></span> Mirem
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-log-out"></span> Çıkış
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -61,198 +98,200 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Content -->
     <div class="container">
 
-        <div class="row">
+        <div class="col-md-3">
+            <p class="lead">Kategoriler</p>
+            <div class="list-group">
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Tümü</a>
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Category 1</a>
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Category 2</a>
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Category 3</a>
+            </div>
+        </div>
 
-            <div class="col-md-3">
-                <p class="lead">Shop Name</p>
-                <div class="list-group">
-                    <a href="#" class="list-group-item">Category 1</a>
-                    <a href="#" class="list-group-item">Category 2</a>
-                    <a href="#" class="list-group-item">usa</a>
+        <div class="col-md-9">
+
+
+            <div class="row carousel-holder">
+                <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-9">
 
-                <div class="row carousel-holder">
+            <div class="row">
+                <p>
+                    Tüm yarı gezginlik tarihimizde bizi en zorlayan seyahat planı hangisidir diye sorarlarsa artık çok net bir cevabımız var; Japonya gezisi. Valla gözünüzü korkutmuş gibi olduysak da yapacak bir şey yok, gerçekler acıdır, dost acı söyler ve konuyla ilgili diğer deyim ve atasözlerini buraya sıralamışız gibi düşünün. Neticede alfabesinden ulaşım sistemine, yediğiniz içtiğinizden gezip gördüğünüze her şeyiyle dünyada karşılaştığınız pek çok yerden kat kat daha farklı bir ülkeden bahsediyoruz. Resmen alternatif bir medeniyet ile tanışıyormuşsunuz gibi düşünmeniz lazım. Üstelik Japonlar o kadar plan program insanı ki, her şeyi mutlaka önceden ayarlamanız, her detayı önceden düşünmeyi alışkanlık haline gerekiyor, aksi takdirde mutlaka bir şeyleri kaçırıyorsunuz. Çoğumuzun Japonya gibi bir ülkeye birkaç kez gitme ihtimalinin düşük olduğunu göz önünde bulundurunca böyle bir şey yaşamak, ne bilelim görmeyi istediğiniz bir müzeye girememek ya da X trenini kaçırdığınız için 1 şehri ziyaret edememek herhalde sizi de delirtir değil mi?
+                    Biz Japonya gezisi için yola çıkmadan önce kaynak konusunda öyle büyük bir eksiklik yaşadık ki, daha İstanbul’da yatağımızda yatarken bile her gece yeminler ediyorduk sdfs. BİZ ÇEKTİK, ONLARA ÇEKTİRMEYECEĞİZ diye dolaştık ortalıkta resmen ve neticede Japonya gezisi planlamak konusunda size yardımcı olabilecek her bir detayı tek bir yazıda topladık ki, siz bu süreci problemsiz ve BAŞLARIM JAPONYASINA DA GEZİSİNE DE demeden atlatın diye. Buyrun artık Japonya gezisi planımıza geçiş yapalım.
+                </p>
+            </div>
 
-                    <div class="col-md-12">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
+            <hr />
+
+            <div class="row">
+                <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/320x150" alt="">
+
+                        <div class="caption">
+
+                            <h5>
+                                <a href="#">merhaba yazzzz</a>
+                            </h5>
+                            <h6>
+                                <span class="glyphicon glyphicon-user"></span> Mirem Işıldak <br />
+                                <span class="glyphicon glyphicon-time"></span> 03.12.2019 <br />
+                            </h6>
+                            <p>basdfbasdfbsdnfkjasdkfnahsdjfh. djsahfkjhsdf</p>
+                        </div>
+                        <div>
+                            <hr />
+                        </div>
+                        <div class="ratings">
+                            <p class="pull-right">
+                                <button class="btn btn-default btn-sm">
+                                    <span class="glyphicon glyphicon-comment"></span> Yorumlar
+                                </button>
+                            </p>
+                            <p>
+                                <button class="btn btn-default btn-sm" type="button"> <span class="glyphicon glyphicon-star-empty"></span>15</button>
+                            </p>
                         </div>
                     </div>
-
                 </div>
+                <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/320x150" alt="">
 
-                <div class="row">
+                        <div class="caption">
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
-                                </h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">15 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                </p>
-                            </div>
+                            <h5>
+                                <a href="#">merhaba yazzzz</a>
+                            </h5>
+                            <h6>
+                                <span class="glyphicon glyphicon-user"></span> Mirem Işıldak <br />
+                                <span class="glyphicon glyphicon-time"></span> 03.12.2019 <br />
+                            </h6>
+                            <p>basdfbasdfbsdnfkjasdkfnahsdjfh. djsahfkjhsdf</p>
+                        </div>
+                        <div>
+                            <hr />
+                        </div>
+                        <div class="ratings">
+                            <p class="pull-right">
+                                <button class="btn btn-default btn-sm">
+                                    <span class="glyphicon glyphicon-comment"></span> Yorumlar
+                                </button>
+                            </p>
+                            <p>
+                                <button class="btn btn-default btn-sm" type="button"> <span class="glyphicon glyphicon-star-empty"></span>15</button>
+                            </p>
                         </div>
                     </div>
+                </div>
+                <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/320x150" alt="">
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">Second Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">12 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
+                        <div class="caption">
+
+                            <h5>
+                                <a href="#">merhaba yazzzz</a>
+                            </h5>
+                            <h6>
+                                <span class="glyphicon glyphicon-user"></span> Mirem Işıldak <br />
+                                <span class="glyphicon glyphicon-time"></span> 03.12.2019 <br />
+                            </h6>
+                            <p>basdfbasdfbsdnfkjasdkfnahsdjfh. djsahfkjhsdf</p>
+                        </div>
+                        <div>
+                            <hr />
+                        </div>
+                        <div class="ratings">
+                            <p class="pull-right">
+                                <button class="btn btn-default btn-sm">
+                                    <span class="glyphicon glyphicon-comment"></span> Yorumlar
+                                </button>
+                            </p>
+                            <p>
+                                <button class="btn btn-default btn-sm" type="button"> <span class="glyphicon glyphicon-star-empty"></span>15</button>
+                            </p>
                         </div>
                     </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$74.99</h4>
-                                <h4><a href="#">Third Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">31 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$84.99</h4>
-                                <h4><a href="#">Fourth Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">6 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$94.99</h4>
-                                <h4><a href="#">Fifth Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">18 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4><a href="#">Like this template?</a>
-                        </h4>
-                        <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
-                        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View Tutorial</a>
-                    </div>
-
                 </div>
 
             </div>
 
         </div>
-
     </div>
-    <!-- /.container -->
+       
+            <!--</div>-->
+            <!-- /.container -->
 
-    <div class="container">
+            <footer>
+                <div class="row">
 
-        <hr>
+                    <div class="col-lg-4 text-center ">
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                        <h4><strong>Sayfamız</strong></h4> <hr />
+                        <p>
+                            <a href="#"><span class="glyphicon glyphicon-heart"></span>En Beğenilenler</a><br />
+                            <a href="#"> <span class="glyphicon glyphicon-info-sign"></span>Hakkımızda </a> <br />
+                            <a href="#"> <span class="glyphicon glyphicon-th-large"></span>Son yazılanlar</a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 text-center ">
+                        <h4><strong>The Story </strong></h4>
+                        <hr />
+                        <p>Tüm Hakları saklıdır &copy; <br /> The Story @DateTime.Now.Year </p>
+                    </div>
+
+                    <div class="col-lg-4 text-center ">
+                        <h4><strong>E-Bülten</strong></h4> <hr />
+                        <div class="col-md-10 col-md-offset-1">
+                            <p>Yeni yazılardan haberdar olmak için   e-bültene katılabilirsiniz.</p>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="e-posta adresiniz">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="submit">
+                                        <span class="glyphicon glyphicon-send"></span> Gönder
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-        </footer>
+            </footer>
+            <!-- /.container -->
 
-    </div>
-    <!-- /.container -->
 
-   
+
 
 </body>
 

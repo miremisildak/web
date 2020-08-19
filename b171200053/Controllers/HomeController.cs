@@ -11,6 +11,8 @@ namespace b171200053.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            TheStory.BusinessLayer.Test test = new TheStory.BusinessLayer.Test();
+
             return View();
         }
     }

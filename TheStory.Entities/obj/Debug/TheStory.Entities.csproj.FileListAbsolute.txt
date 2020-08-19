@@ -1,0 +1,6 @@
+C:\Users\mirem\Desktop\web\TheStory.Entities\bin\Debug\TheStory.Entities.dll
+C:\Users\mirem\Desktop\web\TheStory.Entities\bin\Debug\TheStory.Entities.pdb
+C:\Users\mirem\Desktop\web\TheStory.Entities\obj\Debug\TheStory.Entities.csprojAssemblyReference.cache
+C:\Users\mirem\Desktop\web\TheStory.Entities\obj\Debug\TheStory.Entities.csproj.CoreCompileInputs.cache
+C:\Users\mirem\Desktop\web\TheStory.Entities\obj\Debug\TheStory.Entities.dll
+C:\Users\mirem\Desktop\web\TheStory.Entities\obj\Debug\TheStory.Entities.pdb

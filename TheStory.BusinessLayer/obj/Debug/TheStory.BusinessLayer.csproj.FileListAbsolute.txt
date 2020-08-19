@@ -1,0 +1,17 @@
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.BusinessLayer.dll.config
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.BusinessLayer.dll
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.BusinessLayer.pdb
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.DataAccessLayer.dll
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.Entities.dll
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.DataAccessLayer.pdb
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.DataAccessLayer.dll.config
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.Entities.pdb
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.csproj.CopyComplete
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.dll
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.pdb

@@ -108,3 +108,15 @@ C:\Users\mirem\Desktop\web\b171200053\obj\Debug\b171200053.csproj.CoreCompileInp
 C:\Users\mirem\Desktop\web\b171200053\obj\Debug\b171200053.csproj.CopyComplete
 C:\Users\mirem\Desktop\web\b171200053\obj\Debug\b171200053.dll
 C:\Users\mirem\Desktop\web\b171200053\obj\Debug\b171200053.pdb
+C:\Users\mirem\Desktop\web\b171200053\bin\EntityFramework.dll
+C:\Users\mirem\Desktop\web\b171200053\bin\EntityFramework.SqlServer.dll
+C:\Users\mirem\Desktop\web\b171200053\bin\EntityFramework.xml
+C:\Users\mirem\Desktop\web\b171200053\bin\EntityFramework.SqlServer.xml
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.BusinessLayer.dll
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.Entities.dll
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.DataAccessLayer.dll
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.BusinessLayer.pdb
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.BusinessLayer.dll.config
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.Entities.pdb
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.DataAccessLayer.pdb
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.DataAccessLayer.dll.config
