@@ -15,3 +15,5 @@ C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLay
 C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.csproj.CopyComplete
 C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.dll
 C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.pdb
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\FakeData.dll
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\FakeData.pdb
