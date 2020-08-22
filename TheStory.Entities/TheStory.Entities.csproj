@@ -45,10 +45,14 @@
     <Compile Include="Category.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Liked.cs" />
+    <Compile Include="MessagesCode\ErrorMessage.cs" />
+    <Compile Include="MessagesCode\ErrorMessageObj.cs" />
     <Compile Include="MyEntityBase.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TheStoryUser.cs" />
+    <Compile Include="ValueObjects\LoginViewModel.cs" />
+    <Compile Include="ValueObjects\RegisterViewModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -51,8 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseContext.cs" />
-    <Compile Include="MyInitializer.cs" />
+    <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="EntityFramework\DatabaseContext.cs" />
+    <Compile Include="EntityFramework\Repository.cs" />
+    <Compile Include="EntityFramework\RepositoryBase.cs" />
+    <Compile Include="EntityFramework\MyInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,10 +63,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TheStory.Common\TheStory.Common.csproj">
+      <Project>{61d38c61-b0ac-4c1e-a7e6-68a28c025e1a}</Project>
+      <Name>TheStory.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TheStory.Entities\TheStory.Entities.csproj">
       <Project>{e5457753-2cd5-43d3-a0b3-091d89ac6497}</Project>
       <Name>TheStory.Entities</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

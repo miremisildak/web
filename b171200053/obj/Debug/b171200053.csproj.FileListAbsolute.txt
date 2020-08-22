@@ -122,3 +122,5 @@ C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.DataAccessLayer.pdb
 C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.DataAccessLayer.dll.config
 C:\Users\mirem\Desktop\web\b171200053\bin\FakeData.dll
 C:\Users\mirem\Desktop\web\b171200053\bin\FakeData.pdb
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.Common.dll
+C:\Users\mirem\Desktop\web\b171200053\bin\TheStory.Common.pdb

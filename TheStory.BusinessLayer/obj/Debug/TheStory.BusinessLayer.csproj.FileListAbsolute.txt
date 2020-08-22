@@ -17,3 +17,5 @@ C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLay
 C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\obj\Debug\TheStory.BusinessLayer.pdb
 C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\FakeData.dll
 C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\FakeData.pdb
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.Common.dll
+C:\Users\mirem\Desktop\web\TheStory.BusinessLayer\bin\Debug\TheStory.Common.pdb

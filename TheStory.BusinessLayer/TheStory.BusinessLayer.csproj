@@ -48,10 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLayerResult.cs" />
+    <Compile Include="CategoryManager.cs" />
+    <Compile Include="NoteManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="TheStoryUserManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TheStory.Common\TheStory.Common.csproj">
+      <Project>{61d38c61-b0ac-4c1e-a7e6-68a28c025e1a}</Project>
+      <Name>TheStory.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TheStory.DataAccessLayer\TheStory.DataAccessLayer.csproj">
       <Project>{4fc2b4ac-0a75-4737-bf0e-ab2e907bfb6b}</Project>
       <Name>TheStory.DataAccessLayer</Name>

@@ -1,4 +1,7 @@
-﻿
+﻿@using TheStory.Entities
+@model List<Note>
+
+
 @{
     ViewBag.Title = "Index";
 }
@@ -9,48 +12,48 @@
 
         @*kategoriler*@
         <div class="col-md-3">
-            <p class="lead">Kategoriler</p>
-            <div class="list-group">
-                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Tümü</a>
-                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Bosna</a>
-                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Category 2</a>
-                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Category 3</a>
-            </div>
+            @Html.Partial("_PartialCategories")
+
+
         </div>
         <div class="col-md-9">
 
+
+
             @*carousel*@
 
-           
+
+
+            <!-- Carousel -->
 
             <div class="row carousel-holder">
-            <div class="col-md-12">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="First slide">
+                <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="slide-image" src="http://placehold.it/800x300 " alt="">
+                            </div>
+                            <div class="item">
+                                <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                            </div>
                         </div>
-                        <div class="item">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="Second slide">
-                        </div>
-                        <div class="item">
-                            <img class="slide-image" src="http://placehold.it/800x300" alt="Third slide">
-                        </div>
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
                     </div>
-                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
                 </div>
             </div>
-        </div>
 
 
             @*yazılar*@
@@ -64,102 +67,68 @@
             <hr />
 
             <div class="row">
-                <div class="col-sm-4 col-lg-4 col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://placehold.it/320x150" alt="">
 
-                        <div class="caption">
+                @foreach (Note note in Model)
+                {
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://placehold.it/320x150" alt="@note.Title">
 
-                            <h5>
-                                <a href="#">merhaba yazzzz</a>
-                            </h5>
-                            <h6>
-                                <span class="glyphicon glyphicon-user"></span> Mirem Işıldak <br />
-                                <span class="glyphicon glyphicon-time"></span> 03.12.2019 <br />
-                            </h6>
-                            <p>basdfbasdfbsdnfkjasdkfnahsdjfh. djsahfkjhsdf</p>
-                        </div>
-                        <div>
-                            <hr />
-                        </div>
-                        <div class="ratings">
-                            <p class="pull-right">
-                                <button class="btn btn-default btn-sm">
-                                    <span class="glyphicon glyphicon-comment"></span> Yorumlar
-                                </button>
-                            </p>
-                            <p>
-                                <button class="btn btn-default btn-sm" type="button"> <span class="glyphicon glyphicon-star-empty"></span>15</button>
-                            </p>
+                            <div class="caption">
+
+                                <h5>
+                                    <a href="#">
+                                        @note.Title
+                                    </a>
+                                </h5>
+
+                                <h6 class="text-right">
+                                    @note.Owner.Username <span class="glyphicon glyphicon-user"></span><br />
+                                    @note.ModifiedOn.ToString("dd.MM.yy HH:mm") <span class="glyphicon glyphicon-time"></span>
+                                </h6>
+
+                              
+                                    @if (string.IsNullOrEmpty(note.Text) == false && note.Text.Length > 70)
+                                    {
+
+                                       <p> @(note.Text.Substring(0, 70)+"...") </p>
+                                       <p> <a href="#" data-toggle="modal" data-target="#modal_notedetail" data-note-id="@note.Id"
+                                              class="btn btn-default btn-sm">devamı <span class="glyphicon glyphicon-chevron-right"></span></a></p>
+                                    }
+
+                                    else
+                                    {
+                                       <p>  @note.Text </p>
+                                    }
+                                
+
+
+                            </div>
+                            <div>
+                                <hr />
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">
+                                    <button class="btn btn-default btn-sm">
+                                        <span class="glyphicon glyphicon-comment"></span> Yorumlar
+                                    </button>
+                                </p>
+                                <p>
+                                    <button class="btn btn-default btn-sm" type="button">
+                                        <span class="glyphicon glyphicon-star-empty"></span>@note.LikeCount
+                                    </button>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 col-lg-4 col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://placehold.it/320x150" alt="">
 
-                        <div class="caption">
-
-                            <h5>
-                                <a href="#">merhaba yazzzz</a>
-                            </h5>
-                            <h6>
-                                <span class="glyphicon glyphicon-user"></span> Mirem Işıldak <br />
-                                <span class="glyphicon glyphicon-time"></span> 03.12.2019 <br />
-                            </h6>
-                            <p>basdfbasdfbsdnfkjasdkfnahsdjfh. djsahfkjhsdf</p>
-                        </div>
-                        <div>
-                            <hr />
-                        </div>
-                        <div class="ratings">
-                            <p class="pull-right">
-                                <button class="btn btn-default btn-sm">
-                                    <span class="glyphicon glyphicon-comment"></span> Yorumlar
-                                </button>
-                            </p>
-                            <p>
-                                <button class="btn btn-default btn-sm" type="button"> <span class="glyphicon glyphicon-star-empty"></span>15</button>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-4 col-md-4">
-                    <div class="thumbnail">
-                        <img src="http://placehold.it/320x150" alt="">
-
-                        <div class="caption">
-
-                            <h5>
-                                <a href="#">merhaba yazzzz</a>
-                            </h5>
-                            <h6>
-                                <span class="glyphicon glyphicon-user"></span> Mirem Işıldak <br />
-                                <span class="glyphicon glyphicon-time"></span> 03.12.2019 <br />
-                            </h6>
-                            <p>basdfbasdfbsdnfkjasdkfnahsdjfh. djsahfkjhsdf</p>
-                        </div>
-                        <div>
-                            <hr />
-                        </div>
-                        <div class="ratings">
-                            <p class="pull-right">
-                                <button class="btn btn-default btn-sm">
-                                    <span class="glyphicon glyphicon-comment"></span> Yorumlar
-                                </button>
-                            </p>
-                            <p>
-                                <button class="btn btn-default btn-sm" type="button"> <span class="glyphicon glyphicon-star-empty"></span>15</button>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                }
 
             </div>
 
 
 
         </div>
-        </div>
+    </div>
 </div>
 

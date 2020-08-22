@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using TheStory.Entities;
 
-namespace TheStory.DataAccessLayer
+namespace TheStory.DataAccessLayer.EntityFramework
 {
     public class MyInitializer:CreateDatabaseIfNotExists<DatabaseContext>
     {
@@ -19,7 +19,8 @@ namespace TheStory.DataAccessLayer
                 Name = "Mirem",
                 Surname ="Işıldak",
                 Email ="mirem.isildak@sakarya.edu.tr",
-                IsActive=true,
+                ActivateGuid = Guid.NewGuid(),
+                IsActive =true,
                 IsAdmin = true,
                 Username="miremisildak",
                 Password ="123",
@@ -33,6 +34,7 @@ namespace TheStory.DataAccessLayer
                 Name = "Beyza",
                 Surname = "Karaca",
                 Email = "miremisildak99@gmail.com",
+                ActivateGuid = Guid.NewGuid(),
                 IsActive = true,
                 IsAdmin = false,
                 Username = "KrcByz",

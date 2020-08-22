@@ -1,0 +1,6 @@
+C:\Users\mirem\Desktop\web\TheStory.Common\bin\Debug\TheStory.Common.dll
+C:\Users\mirem\Desktop\web\TheStory.Common\bin\Debug\TheStory.Common.pdb
+C:\Users\mirem\Desktop\web\TheStory.Common\obj\Debug\TheStory.Common.csprojAssemblyReference.cache
+C:\Users\mirem\Desktop\web\TheStory.Common\obj\Debug\TheStory.Common.csproj.CoreCompileInputs.cache
+C:\Users\mirem\Desktop\web\TheStory.Common\obj\Debug\TheStory.Common.dll
+C:\Users\mirem\Desktop\web\TheStory.Common\obj\Debug\TheStory.Common.pdb

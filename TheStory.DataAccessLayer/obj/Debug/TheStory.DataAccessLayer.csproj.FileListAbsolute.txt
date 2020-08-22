@@ -14,3 +14,5 @@ C:\Users\mirem\Desktop\web\TheStory.DataAccessLayer\obj\Debug\TheStory.DataAcces
 C:\Users\mirem\Desktop\web\TheStory.DataAccessLayer\obj\Debug\TheStory.DataAccessLayer.csproj.CopyComplete
 C:\Users\mirem\Desktop\web\TheStory.DataAccessLayer\obj\Debug\TheStory.DataAccessLayer.dll
 C:\Users\mirem\Desktop\web\TheStory.DataAccessLayer\obj\Debug\TheStory.DataAccessLayer.pdb
+C:\Users\mirem\Desktop\web\TheStory.DataAccessLayer\bin\Debug\TheStory.Common.dll
+C:\Users\mirem\Desktop\web\TheStory.DataAccessLayer\bin\Debug\TheStory.Common.pdb

@@ -1,9 +1,11 @@
-﻿using System;
+﻿using b171200053.Init;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using TheStory.Common;
 
 namespace b171200053
 {
@@ -13,6 +15,8 @@ namespace b171200053
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            App.Common = new WebCommon();
         }
     }
 }

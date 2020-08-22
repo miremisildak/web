@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TheStory.Entities;
 
-namespace TheStory.DataAccessLayer
+namespace TheStory.DataAccessLayer.EntityFramework
 {
     public class DatabaseContext :DbContext
     {
