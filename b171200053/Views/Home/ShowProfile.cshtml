@@ -1,0 +1,58 @@
+﻿
+@using TheStory.Entities
+@model TheStoryUser
+
+@{
+    ViewBag.Title = "Profiliniz";
+}
+
+
+<div class="container">
+
+    <div class="row">
+        <h2>@ViewBag.Title</h2>
+        <hr />
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-2">
+            <img src="~/images/@Model.ProfileImageFilename" class="img-circle" width="128" height="128" />
+        </div>
+
+        <div class="col-md-8">
+            <h3>@(Model.Name + " " + Model.Surname) </h3>
+            <br />
+            <h5><b>@*@Html.DisplayNameFor(model => model.Username)*@ Username: </b>@Model.Username</h5>
+            <h5><b>@*@Html.DisplayNameFor(model => model.Email)*@Email : </b>@Model.Email</h5>
+            <br />
+            <h5><a href="#">More... </a></h5>
+        </div>
+
+        
+            <div class="col-md-2 text-right">
+                    <div class="btn-group">
+                        <a class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-cog">&nbsp;</span>
+                            Seçenekler
+                            <span class="icon-cog icon-white"></span><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-item">
+                            <li><a href="@Url.Action("EditProfile")"><span class="glyphicon glyphicon-edit">&nbsp;</span> Düzenle</a></li>
+                            <li>
+                                <a href="@Url.Action("DeleteProfile")" onclick="return confirm('Silmek istediğinizden emin misiniz?');">
+                                    <span class="glyphicon glyphicon-trash">&nbsp;</span> Sil
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+              
+                </div>
+
+            </div>
+        </div>
+
+            
+

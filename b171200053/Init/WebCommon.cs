@@ -9,7 +9,7 @@ namespace b171200053.Init
 {
     public class WebCommon : ICommon
     {
-        public String GetCurrentUsername()
+        public string GetCurrentUsername()
         {
             if (HttpContext.Current.Session["login"] != null)
             {
@@ -17,7 +17,7 @@ namespace b171200053.Init
                 return user.Username;
             }
 
-            return null;
+            return "system";
         }
 
     }
